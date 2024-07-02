@@ -11,7 +11,12 @@ public class MainMenuController : MonoBehaviour
     void Start()
     {
         playButton.onClick.AddListener(OnPlayClicked);
-        quitButton.onClick.AddListener(OnQuitClicked);
+
+        #if UNITY_WEBGL
+            quitButton.gameObject.SetActive(false); 
+        #else
+            quitButton.onClick.AddListener(OnQuitClicked);
+        #endif
     }
 
     void OnPlayClicked()
