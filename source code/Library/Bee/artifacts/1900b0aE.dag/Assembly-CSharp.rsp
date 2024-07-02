@@ -361,6 +361,7 @@
 "Assets/Scripts/BearEndlessRunnerController.cs"
 "Assets/Scripts/GroundSpawner.cs"
 "Assets/Scripts/GroundTile.cs"
+"Assets/Scripts/MainMenuController.cs"
 -langversion:9.0
 
 /deterministic
