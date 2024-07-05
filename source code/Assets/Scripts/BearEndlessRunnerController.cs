@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // Include the SceneManager
 
 namespace BLINK
 {
@@ -67,6 +68,16 @@ namespace BLINK
 
             // Smoothly move the camera towards the desired position
             mainCamera.position = Vector3.Lerp(mainCamera.position, targetCameraPosition, cameraFollowSpeed * Time.deltaTime);
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            // Check if the collision is with an obstacle
+            if (collision.gameObject.CompareTag("Obstacle"))
+            {
+                // Load the scene with index 0
+                SceneManager.LoadScene(0);
+            }
         }
     }
 }

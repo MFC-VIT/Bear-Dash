@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5882645818378754294}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,8 +104,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2711524, y: 0.57478285, z: 0.8294239}
-  m_Center: {x: -0.047150303, y: -0.22012389, z: -0.91471195}
+  m_Size: {x: 0.7992073, y: 0.57478285, z: 0.8294239}
+  m_Center: {x: 0.04361399, y: -0.22012389, z: -0.91471195}
 --- !u!1001 &2646018935680818533
 PrefabInstance:
   m_ObjectHideFlags: 0
