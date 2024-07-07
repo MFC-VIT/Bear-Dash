@@ -362,6 +362,7 @@
 "Assets/Scripts/GroundSpawner.cs"
 "Assets/Scripts/GroundTile.cs"
 "Assets/Scripts/MainMenuController.cs"
+"Assets/Scripts/Time.cs"
 -langversion:9.0
 
 /deterministic
