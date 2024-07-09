@@ -17,6 +17,12 @@ extern void MouseLook_Update_m18C0A114A78C19B888A9F74CA1FE5A837DF9E42A (void);
 extern void MouseLook__ctor_m4C8A79A3CB8D46D3E22E3AB1F645D41ED589312B (void);
 extern void PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3 (void);
 extern void PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA (void);
+extern void FoxEndlessRunnerController_Start_mFF6703C87DDC96C4CABA0346C8381AD208F11C02 (void);
+extern void FoxEndlessRunnerController_Update_m7F143A434BDCB5625D08190487A10036716DC37D (void);
+extern void FoxEndlessRunnerController_FixedUpdate_mEB3C5EAF16E8D1BDCCC3C3FEB184351AD5EA8766 (void);
+extern void FoxEndlessRunnerController_UpdateCameraPosition_m641995CE48B42F621328A5AC583540DBED7F721E (void);
+extern void FoxEndlessRunnerController_OnCollisionEnter_m9CF8B7C659871149ABE513BEDDCBEA7970F563FA (void);
+extern void FoxEndlessRunnerController__ctor_m7B5D0150B65FA68B53686F16ED39A226EB3EDF05 (void);
 extern void GroundSpawner_SpawnTile_m39DB4B0D0382E2B0ACE5205715C75EA693A77D0A (void);
 extern void GroundSpawner_Start_m9444EB13560B913D30782E4E1A7F3CFF8BA189EA (void);
 extern void GroundSpawner__ctor_mD091EE0548985539938F2DA0117FD1D7D8C24A16 (void);
@@ -32,12 +38,6 @@ extern void Timer_Update_m3AC30EFD54E8E1010F6E601AE179212E71E6B2CD (void);
 extern void Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-extern void BearEndlessRunnerController_Start_m9C7076E85AF4D9F5DEA5A3DDE8CF5B72A2474AD6 (void);
-extern void BearEndlessRunnerController_Update_m530400F4F0359E2D9B39E8B45744CB5E2AFD2BE2 (void);
-extern void BearEndlessRunnerController_FixedUpdate_mD322AC81EC177D528DF97FA2255D24B7336E21D9 (void);
-extern void BearEndlessRunnerController_UpdateCameraPosition_m11DB0BF3B93675322B6453F1E011AD89A1DF6F00 (void);
-extern void BearEndlessRunnerController_OnCollisionEnter_mFDBFEC7A388355A1ADF7DC09C1FE8E829EEB9ECE (void);
-extern void BearEndlessRunnerController__ctor_m5D3952F2E5B16467B05A00A566CF7CCABB24DA6E (void);
 static Il2CppMethodPointer s_methodPointers[26] = 
 {
 	MouseLook_Start_m08FD16A47A96624540CD1B8EBA5FFAA1FD75E686,
@@ -45,6 +45,12 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	MouseLook__ctor_m4C8A79A3CB8D46D3E22E3AB1F645D41ED589312B,
 	PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3,
 	PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA,
+	FoxEndlessRunnerController_Start_mFF6703C87DDC96C4CABA0346C8381AD208F11C02,
+	FoxEndlessRunnerController_Update_m7F143A434BDCB5625D08190487A10036716DC37D,
+	FoxEndlessRunnerController_FixedUpdate_mEB3C5EAF16E8D1BDCCC3C3FEB184351AD5EA8766,
+	FoxEndlessRunnerController_UpdateCameraPosition_m641995CE48B42F621328A5AC583540DBED7F721E,
+	FoxEndlessRunnerController_OnCollisionEnter_m9CF8B7C659871149ABE513BEDDCBEA7970F563FA,
+	FoxEndlessRunnerController__ctor_m7B5D0150B65FA68B53686F16ED39A226EB3EDF05,
 	GroundSpawner_SpawnTile_m39DB4B0D0382E2B0ACE5205715C75EA693A77D0A,
 	GroundSpawner_Start_m9444EB13560B913D30782E4E1A7F3CFF8BA189EA,
 	GroundSpawner__ctor_mD091EE0548985539938F2DA0117FD1D7D8C24A16,
@@ -60,12 +66,6 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
-	BearEndlessRunnerController_Start_m9C7076E85AF4D9F5DEA5A3DDE8CF5B72A2474AD6,
-	BearEndlessRunnerController_Update_m530400F4F0359E2D9B39E8B45744CB5E2AFD2BE2,
-	BearEndlessRunnerController_FixedUpdate_mD322AC81EC177D528DF97FA2255D24B7336E21D9,
-	BearEndlessRunnerController_UpdateCameraPosition_m11DB0BF3B93675322B6453F1E011AD89A1DF6F00,
-	BearEndlessRunnerController_OnCollisionEnter_mFDBFEC7A388355A1ADF7DC09C1FE8E829EEB9ECE,
-	BearEndlessRunnerController__ctor_m5D3952F2E5B16467B05A00A566CF7CCABB24DA6E,
 };
 static const int32_t s_InvokerIndices[26] = 
 {
@@ -84,16 +84,16 @@ static const int32_t s_InvokerIndices[26] =
 	4432,
 	4432,
 	4432,
+	3569,
+	4432,
+	4432,
+	4432,
+	4432,
+	4432,
 	4432,
 	4432,
 	4432,
 	6382,
-	4432,
-	4432,
-	4432,
-	4432,
-	4432,
-	3569,
 	4432,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
